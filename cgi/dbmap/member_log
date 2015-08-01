@@ -1,0 +1,12 @@
+column	datatype	size	label	display	read	write	search	validate	default
+member_log_id	key#	0	ID	no	1	4	no	hard
+member_id	key:member	0	UID	no	1	4	no	yes
+member_log_form_id	key=member_log_form	0	Form ID	no	2	4	no	yes
+status	list:member_log_status	40	Status	brief	2	4	no	soft	active
+type	list:member_log_type	40	Log Type	no	1	4	yes	yes	regular
+notes	text	400	Notes	full	1	2	yes	no
+mtime	timestamp	0	Last Modified	full	2	4	no	yes
+ctime	timestamp	0	Created	full	2	4	no	yes
+receivable_id	key:receivable	0	Invoice	full	1	4	no	yes
+documents	string	40	Documents	no	1	4	no	yes
+parent_id	key:member_log	0	Related to	no	1	4	no	yes

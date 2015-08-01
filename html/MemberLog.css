@@ -1,0 +1,41 @@
+table.dataTable {
+width:100% !important;
+}
+
+td.ReportFooter caption {
+font-size:x-small !important;
+height:25px;
+width:90%;
+}
+
+td.ReportFooter {
+margin:3px !important;
+padding:3px !important;
+}
+
+td.ReportFooter table {
+border:1px solid #000;
+margin-bottom:0 !important;
+}
+
+table.LogMenu {
+margin-left:100px;
+width:100px;
+}
+
+table.LogView td {
+vertical-align:top;
+}
+
+table.MemberLog img {
+max-width:100px;
+}
+
+p.Contact {
+background:url(card.jpg);
+font-size:12px;
+height:197px;
+width:322px;
+font-family:courier;
+padding:25px 20px 35px;
+}

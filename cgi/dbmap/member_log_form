@@ -1,0 +1,8 @@
+column	datatype	size	label	display	read	write	search	validate	default
+member_log_form_id	key#	0	ID	no	2	4	no	hard
+status	list:member_log_status	40	Status	brief	1	2	no	soft
+type	list:member_log_type	40	Log Type	brief	2	2	yes	yes
+title	string	200	Title	brief	2	2	yes	yes
+presets	string	255	Settings	brief	2	4	no	yes	no
+startdate	date:picker	0	Start Date	brief	2	2	no	yes
+enddate	date:picker	0	End Date	brief	2	2	no	yes

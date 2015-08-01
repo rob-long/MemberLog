@@ -1,0 +1,3 @@
+table	alias	key	title	plural	report	read	insert	update	delete	search	index	class
+member_log	member_log	member_log_id	Member Log	Member Logs	table	1	1	1	3	1	member_id,receivable_id	Modules::MemberLog::MemberLog
+member_log_form	member_log_form	member_log_form_id	Application Form	Application Forms	table	2	2	2	3	3	
